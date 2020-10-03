@@ -25,10 +25,10 @@ The template for this project can be found [here](https://github.com/lb930/Alter
 
 ![mapping table](https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/Mapping_table.JPG)
 
-5. Each slide is stored as .xml file in \ppt\slides. Import each slide you want to populate into Alteryx using .csv as data type. 
+5. Each slide is stored as .xml file in 03_Template\ppt\slides. Import each slide you want to populate into Alteryx using .csv as data type in the 'File Format' field. 
 
 * Uncheck 'First row contains field names'
-* Use  a pipe | as delimiter
+* Use a pipe | as delimiter
 * Set the string length to something very long such as 2540000
 * Change the code page to Unicode UTF-8
 
