@@ -1,5 +1,7 @@
 ## How to automatically populate PowerPoint presentations with Alteryx
 
+If you find yourself manually updating the same Powerpoint presentation again and again, you may want to automate this process.
+
 This repository contains examples and workflows that you can use to populate your own PowerPoint presentations using [Alteryx](https://www.alteryx.com/products/alteryx-platform/alteryx-designer). Instead of manually replacing values in tables or text boxes, you can use the macro [PPTX_macro_values.yxmc](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/PPTX_macro_values.yxmc).
 
 ### Prerequisites
@@ -11,9 +13,7 @@ This repository contains examples and workflows that you can use to populate you
 ### Step-by-step guide for text boxes and tables
 
 1. First you will need a PowerPoint template. It should look exactly like the finished PowerPoint presentation you are trying to create, but all values will be replaced by unique strings. I usually pick {1}, {2}...etc.
-The template for this project can be found [here](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/template.pptx).
-
-If you want to assign different colours to negative or positive values (eg red for negative, green for positive) you should highlight them in a colour that isn't used elsewhere in the presentation. I used #FFC000 in this template. The macro will ask you to specify this template colour so it can easily pick up these values.
+The template for this project can be found [here](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/template.pptx). If you want to assign different colours to negative or positive values (eg red for negative, green for positive) you should highlight them in a colour that isn't used elsewhere in the presentation. I this case I used #FFC000. The macro will ask you to specify this template colour so it can easily pick up these values.
 
 ![Template](https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/slide2.PNG)
 
@@ -32,7 +32,7 @@ If you want to assign different colours to negative or positive values (eg red f
 * Set the string length to something very long such as 2540000
 * Change the code page to Unicode UTF-8
 
-6. Connect your mapping table to the bottom input of the PPTX_macro_values.yxmc macro and the slide xml file to the top input. Specify the highlighter colour described in step 1 and assign colour values for positive and negative values. If this is left blank, the font colour will be the same as in the template. Run the workflow.
+6. Connect your mapping table to the bottom input of the PPTX_macro_values.yxmc macro and the slide xml file to the top input. Specify the highlighter colour described in step 1 and assign colour values for positive and negative values. Colours need to be entered as hex codes without #. If this is left blank, the font colour will be the same as in the template. Run the workflow.
 
 7. Output each slide as .csv file into 02_Replacement/ppt/slides folder.
 
