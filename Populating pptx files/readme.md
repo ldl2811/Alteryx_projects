@@ -6,6 +6,7 @@ This repository contains examples and workflows that you can use to populate you
 
 * [Alteryx Designer 2019.3](https://www.alteryx.com/products/alteryx-platform/alteryx-designer)
 * [7-Zip](https://www.7-zip.org/)
+* You may have to change the file paths in the batch script workflows if your folder structure is different.
 
 ### Step-by-step guide for text boxes and tables
 
