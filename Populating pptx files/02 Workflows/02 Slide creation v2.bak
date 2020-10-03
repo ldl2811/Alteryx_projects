@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="144">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="2046" width="216" height="204" />
+        <Position x="1830" y="2238" width="216" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +23,7 @@
     </Node>
     <Node ToolID="143">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1746" y="2046" width="528" height="204" />
+        <Position x="2058" y="2238" width="528" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -43,7 +43,7 @@
     </Node>
     <Node ToolID="142">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2286" y="2046" width="216" height="204" />
+        <Position x="2598" y="2238" width="216" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,7 +63,7 @@
     </Node>
     <Node ToolID="137">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="1758" width="216" height="204" />
+        <Position x="1830" y="1950" width="216" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -83,7 +83,7 @@
     </Node>
     <Node ToolID="136">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1746" y="1758" width="528" height="204" />
+        <Position x="2058" y="1950" width="528" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -103,7 +103,7 @@
     </Node>
     <Node ToolID="135">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2286" y="1758" width="216" height="204" />
+        <Position x="2598" y="1950" width="216" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -123,7 +123,7 @@
     </Node>
     <Node ToolID="134">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="1494" width="216" height="216" />
+        <Position x="1830" y="1686" width="216" height="216" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -143,7 +143,7 @@
     </Node>
     <Node ToolID="133">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1746" y="1494" width="528" height="216" />
+        <Position x="2058" y="1686" width="528" height="216" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -163,7 +163,7 @@
     </Node>
     <Node ToolID="132">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2286" y="1494" width="216" height="216" />
+        <Position x="2598" y="1686" width="216" height="216" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -183,7 +183,7 @@
     </Node>
     <Node ToolID="131">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2286" y="1278" width="216" height="204" />
+        <Position x="2598" y="1470" width="216" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -203,7 +203,7 @@
     </Node>
     <Node ToolID="129">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="1278" width="216" height="204" />
+        <Position x="1830" y="1470" width="216" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -223,7 +223,7 @@
     </Node>
     <Node ToolID="130">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1746" y="1278" width="528" height="204" />
+        <Position x="2058" y="1470" width="528" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -243,7 +243,7 @@
     </Node>
     <Node ToolID="126">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2286" y="1014" width="216" height="216" />
+        <Position x="2598" y="1206" width="216" height="216" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -263,7 +263,7 @@
     </Node>
     <Node ToolID="125">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1746" y="1014" width="528" height="216" />
+        <Position x="2058" y="1206" width="528" height="216" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -283,7 +283,7 @@
     </Node>
     <Node ToolID="124">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="1014" width="216" height="216" />
+        <Position x="1830" y="1206" width="216" height="216" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -303,7 +303,7 @@
     </Node>
     <Node ToolID="123">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2286" y="798" width="216" height="204" />
+        <Position x="2598" y="990" width="216" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -323,7 +323,7 @@
     </Node>
     <Node ToolID="122">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1746" y="798" width="528" height="204" />
+        <Position x="2058" y="990" width="528" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -343,7 +343,7 @@
     </Node>
     <Node ToolID="121">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="798" width="216" height="204" />
+        <Position x="1830" y="990" width="216" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -363,7 +363,7 @@
     </Node>
     <Node ToolID="118">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2286" y="474" width="216" height="204" />
+        <Position x="2598" y="666" width="216" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -383,7 +383,7 @@
     </Node>
     <Node ToolID="117">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1746" y="474" width="528" height="204" />
+        <Position x="2058" y="666" width="528" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -403,7 +403,7 @@
     </Node>
     <Node ToolID="116">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="474" width="216" height="204" />
+        <Position x="1830" y="666" width="216" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -423,7 +423,7 @@
     </Node>
     <Node ToolID="114">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1278" y="402" width="228" height="288" />
+        <Position x="1590" y="594" width="228" height="288" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -443,7 +443,7 @@
     </Node>
     <Node ToolID="113">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1050" y="702" width="216" height="240" />
+        <Position x="1362" y="894" width="216" height="240" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -463,7 +463,7 @@
     </Node>
     <Node ToolID="112">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="642" y="402" width="624" height="288" />
+        <Position x="954" y="594" width="624" height="288" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -483,7 +483,7 @@
     </Node>
     <Node ToolID="111">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="486" y="402" width="144" height="288" />
+        <Position x="798" y="594" width="144" height="288" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -503,7 +503,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="1122" y="822" />
+        <Position x="1434" y="1014" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -661,7 +661,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="678" y="498" />
+        <Position x="990" y="690" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -681,7 +681,7 @@ New Date = DateTimeFormat([Date], ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="534" y="498" />
+        <Position x="846" y="690" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -705,7 +705,7 @@ New Date = DateTimeFormat([Date], ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="798" y="498" />
+        <Position x="1110" y="690" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -726,7 +726,7 @@ New Date = DateTimeFormat([Date], ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="918" y="498" />
+        <Position x="1230" y="690" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -745,7 +745,7 @@ elseif ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1038" y="498" />
+        <Position x="1350" y="690" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -764,7 +764,7 @@ elseif ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1158" y="498" />
+        <Position x="1470" y="690" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -788,7 +788,7 @@ elseif ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1350" y="498" />
+        <Position x="1662" y="690" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -807,7 +807,7 @@ elseif ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="2370" y="882" />
+        <Position x="2682" y="1074" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -825,12 +825,15 @@ elseif ...</DefaultAnnotationText>
 Table=Sheet1</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="71">
       <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
-        <Position x="1950" y="882" />
+        <Position x="2262" y="1074" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -854,7 +857,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="76">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="1590" y="882" />
+        <Position x="1902" y="1074" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -871,6 +874,9 @@ Table=Sheet1</DefaultAnnotationText>
 Table=`Sheet1$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name=" " size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx-projects\Populating pptx files\02 Workflows\03_Template\ppt\embeddings\Microsoft_Excel_Worksheet.xlsx|||`Sheet1$`" type="V_String" />
@@ -882,7 +888,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="77">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="1578" y="1374" />
+        <Position x="1890" y="1566" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -899,6 +905,9 @@ Table=`Sheet1$`</DefaultAnnotationText>
 Table=`Sheet1$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name=" " source="File: C:\Users\bezlui\Documents\GitHub\Alteryx-projects\Populating pptx files\02 Workflows\03_Template\ppt\embeddings\Microsoft_Excel_Worksheet1.xlsx|||`Sheet1$`" type="Double" />
@@ -912,7 +921,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="78">
       <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
-        <Position x="1986" y="1374" />
+        <Position x="2298" y="1566" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -936,7 +945,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="79">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="2370" y="1374" />
+        <Position x="2682" y="1566" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -954,12 +963,15 @@ Table=`Sheet1$`</DefaultAnnotationText>
 Table=Sheet1</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="80">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="1770" y="1374" />
+        <Position x="2082" y="1566" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -985,7 +997,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="81">
       <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="2094" y="1374" />
+        <Position x="2406" y="1566" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1021,7 +1033,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="82">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2190" y="1374" />
+        <Position x="2502" y="1566" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1044,7 +1056,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="87">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2082" y="882" />
+        <Position x="2394" y="1074" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1065,7 +1077,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="88">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="1590" y="1122" />
+        <Position x="1902" y="1314" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1097,7 +1109,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="89">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1938" y="1110" />
+        <Position x="2250" y="1302" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1119,7 +1131,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="90">
       <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
-        <Position x="2094" y="1110" />
+        <Position x="2406" y="1302" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1143,7 +1155,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="91">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="2370" y="1110" />
+        <Position x="2682" y="1302" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1164,12 +1176,15 @@ Table=Sheet1</DefaultAnnotationText>
           <DefaultAnnotationText>chart1.xml</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="94">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="1578" y="1590" />
+        <Position x="1890" y="1782" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1191,6 +1206,9 @@ Table=Sheet1</DefaultAnnotationText>
           <DefaultAnnotationText>chart2.xml</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Field_1" size="2540000" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx-projects\Populating pptx files\02 Workflows\03_Template\ppt\charts\chart2.xml" type="V_WString" />
@@ -1201,7 +1219,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="95">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1806" y="1590" />
+        <Position x="2118" y="1782" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1223,7 +1241,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="96">
       <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
-        <Position x="2106" y="1590" />
+        <Position x="2418" y="1782" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1247,7 +1265,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="97">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="2370" y="1590" />
+        <Position x="2682" y="1782" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1268,12 +1286,15 @@ Table=Sheet1</DefaultAnnotationText>
           <DefaultAnnotationText>chart2.xml</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="98">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1878" y="1374" />
+        <Position x="2190" y="1566" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1294,7 +1315,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="99">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1794" y="882" />
+        <Position x="2106" y="1074" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1315,7 +1336,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="1578" y="2130" />
+        <Position x="1890" y="2322" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1347,7 +1368,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="2370" y="2118" />
+        <Position x="2682" y="2310" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1373,7 +1394,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="1602" y="546" />
+        <Position x="1914" y="738" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1405,7 +1426,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="2358" y="546" />
+        <Position x="2682" y="738" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1431,7 +1452,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="100">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="1014" width="312" height="120" />
+        <Position x="366" y="1206" width="312" height="120" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1451,7 +1472,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="101">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="894" width="312" height="108" />
+        <Position x="366" y="1086" width="312" height="108" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1471,7 +1492,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="102">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="774" width="312" height="108" />
+        <Position x="366" y="966" width="312" height="108" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1491,7 +1512,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="103">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="654" width="312" height="108" />
+        <Position x="366" y="846" width="312" height="108" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1511,7 +1532,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="104">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="534" width="312" height="108" />
+        <Position x="366" y="726" width="312" height="108" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1531,7 +1552,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="105">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="402" width="312" height="120" />
+        <Position x="366" y="594" width="312" height="120" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1551,7 +1572,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="106">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="306" width="312" height="72" />
+        <Position x="366" y="498" width="312" height="72" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1571,7 +1592,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="107">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="450" y="54" width="1164" height="96" />
+        <Position x="762" y="246" width="1164" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1591,7 +1612,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="108">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="462" y="210" width="732" height="96" />
+        <Position x="774" y="402" width="732" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1613,7 +1634,7 @@ Last Updated: 01/10/2020</Text>
     </Node>
     <Node ToolID="109">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="462" y="150" width="1164" height="36" />
+        <Position x="774" y="342" width="1164" height="36" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1633,7 +1654,7 @@ Last Updated: 01/10/2020</Text>
     </Node>
     <Node ToolID="110">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="1146" width="312" height="120" />
+        <Position x="366" y="1338" width="312" height="120" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1653,7 +1674,7 @@ Last Updated: 01/10/2020</Text>
     </Node>
     <Node ToolID="115">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="402" width="984" height="60" />
+        <Position x="1830" y="594" width="984" height="60" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1673,7 +1694,7 @@ Last Updated: 01/10/2020</Text>
     </Node>
     <Node ToolID="119">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="690" width="984" height="60" />
+        <Position x="1830" y="882" width="984" height="60" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1693,7 +1714,7 @@ Last Updated: 01/10/2020</Text>
     </Node>
     <Node ToolID="120">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="762" width="984" height="24" />
+        <Position x="1830" y="954" width="984" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1713,7 +1734,7 @@ Last Updated: 01/10/2020</Text>
     </Node>
     <Node ToolID="127">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="1722" width="984" height="24" />
+        <Position x="1830" y="1914" width="984" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1733,7 +1754,7 @@ Last Updated: 01/10/2020</Text>
     </Node>
     <Node ToolID="148">
       <GuiSettings>
-        <Position x="1938" y="558" />
+        <Position x="2250" y="750" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1750,9 +1771,53 @@ Last Updated: 01/10/2020</Text>
       </Properties>
       <EngineSettings Macro="PPTX_macro_values.yxmc" />
     </Node>
+    <Node ToolID="149">
+      <GuiSettings>
+        <Position x="2298" y="2322" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Text Box (26)">FFC000</Value>
+          <Value name="Text Box (28)">88c4fc</Value>
+          <Value name="Text Box (31)">e61c69</Value>
+          <Value name="Text Box (33)">FFFFFF</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>PPTX_macro_values (58)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="C:\Users\bezlui\Documents\GitHub\Alteryx-projects\Populating pptx files\02 Workflows\PPTX_macro_values.yxmc" />
+    </Node>
+    <Node ToolID="150">
+      <GuiSettings>
+        <Position x="2298" y="2022" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Text Box (26)">FFC000</Value>
+          <Value name="Text Box (28)">88c4fc</Value>
+          <Value name="Text Box (31)">e61c69</Value>
+          <Value name="Text Box (33)">FFFFFF</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>PPTX_macro_values (85)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="C:\Users\bezlui\Documents\GitHub\Alteryx-projects\Populating pptx files\02 Workflows\PPTX_macro_values.yxmc" />
+    </Node>
     <Node ToolID="84">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="2370" y="1830" />
+        <Position x="2682" y="2022" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1773,12 +1838,15 @@ Last Updated: 01/10/2020</Text>
           <DefaultAnnotationText>slide3.xml</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="83">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="1602" y="1830" />
+        <Position x="1914" y="2022" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1800,6 +1868,9 @@ Last Updated: 01/10/2020</Text>
           <DefaultAnnotationText>slide3.xml</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Field_1" size="2540000" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx-projects\Populating pptx files\02 Workflows\03_Template\ppt\slides\slide3.xml" type="V_WString" />
@@ -1810,7 +1881,7 @@ Last Updated: 01/10/2020</Text>
     </Node>
     <Node ToolID="128">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="1242" width="984" height="24" />
+        <Position x="1830" y="1434" width="984" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1830,7 +1901,7 @@ Last Updated: 01/10/2020</Text>
     </Node>
     <Node ToolID="141">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1518" y="1974" width="984" height="60" />
+        <Position x="1830" y="2166" width="984" height="60" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1847,44 +1918,6 @@ Last Updated: 01/10/2020</Text>
           <Left value="False" />
         </Annotation>
       </Properties>
-    </Node>
-    <Node ToolID="151">
-      <GuiSettings>
-        <Position x="1950" y="1830" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="Text Box (26)">FFC000</Value>
-          <Value name="Text Box (28)">88c4fc</Value>
-          <Value name="Text Box (31)">e61c69</Value>
-          <Value name="Text Box (33)">FFFFFF</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings Macro="C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Populating pptx files\02 Workflows\PPTX_macro_values.yxmc" />
-    </Node>
-    <Node ToolID="152">
-      <GuiSettings>
-        <Position x="1974" y="2118" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="Text Box (26)">FFC000</Value>
-          <Value name="Text Box (28)">88c4fc</Value>
-          <Value name="Text Box (31)">e61c69</Value>
-          <Value name="Text Box (33)">FFFFFF</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings Macro="C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Populating pptx files\02 Workflows\PPTX_macro_values.yxmc" />
     </Node>
   </Nodes>
   <Connections>
@@ -1926,6 +1959,14 @@ Last Updated: 01/10/2020</Text>
     </Connection>
     <Connection Wireless="True">
       <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="149" Connection="Input22" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="149" Connection="Input1" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="11" Connection="Output" />
       <Destination ToolID="71" Connection="Source" />
     </Connection>
     <Connection>
@@ -1942,6 +1983,14 @@ Last Updated: 01/10/2020</Text>
     </Connection>
     <Connection Wireless="True">
       <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="150" Connection="Input22" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="150" Connection="Input1" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="11" Connection="Output" />
       <Destination ToolID="90" Connection="Source" />
     </Connection>
     <Connection>
@@ -1955,22 +2004,6 @@ Last Updated: 01/10/2020</Text>
     <Connection>
       <Origin ToolID="95" Connection="Output" />
       <Destination ToolID="96" Connection="Targets" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="11" Connection="Output" />
-      <Destination ToolID="151" Connection="Input22" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="83" Connection="Output" />
-      <Destination ToolID="151" Connection="Input1" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="11" Connection="Output" />
-      <Destination ToolID="152" Connection="Input22" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="29" Connection="Output" />
-      <Destination ToolID="152" Connection="Input1" />
     </Connection>
     <Connection>
       <Origin ToolID="71" Connection="Output" />
@@ -2025,12 +2058,12 @@ Last Updated: 01/10/2020</Text>
       <Destination ToolID="14" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="151" Connection="Output25" />
-      <Destination ToolID="84" Connection="Input" />
+      <Origin ToolID="149" Connection="Output25" />
+      <Destination ToolID="32" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="152" Connection="Output25" />
-      <Destination ToolID="32" Connection="Input" />
+      <Origin ToolID="150" Connection="Output25" />
+      <Destination ToolID="84" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
