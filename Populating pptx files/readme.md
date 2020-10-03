@@ -19,7 +19,7 @@ If you want to assign different colours to negative or positive values (eg red f
 
 4. Next, create a mapping table with the columns *Name* and *Value*. *Name* contains your dummy strings whereas *Value* contains your real data. For simplicity's sake I have used a text input, but you will most likely generate this table with a separate workflow that feeds into your data.
 
-![mapping table}(https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/Mapping_table.JPG)
+![mapping table](https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/Mapping_table.JPG)
 
 5. Each slide is stored as .xml file in \ppt\slides. Import each slide you want to populate into Alteryx using .csv as data type. 
 
