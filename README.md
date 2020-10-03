@@ -2,4 +2,4 @@
  Contains various Alteryx projects
 
 ## Content
-1. **[Populating PPTX files](https://github.com/lb930/Alteryx_projects/tree/main/Populating%20pptx%20files)**: This project contains an end-to-end workflow to automatically update PowerPoint slides using Alteryx. The slides include text boxes, graphs and tables.
+1. **[Populating PPTX files](https://github.com/lb930/Alteryx_projects/tree/main/Populating%20pptx%20files)**: If you find yourself manually updating the same Powerpoint presentation again and again, you may want to automate this process. This project contains an end-to-end workflow to automatically update PowerPoint slides using Alteryx. The slides include text boxes, graphs and tables.
