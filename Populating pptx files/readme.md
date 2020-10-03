@@ -8,4 +8,4 @@ This macro uses xml files to change the values in a PowerPoint presentation
 
 1. First you will need a PowerPoint template. It should look exactly like the finished PowerPoint presentation you are trying to create, but all values are replaced by dummy data strings which are unique in the presentation. I usually pick {1}, {2}...etc.
 
-![Template](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/01%20Screenshots/slide2.PNG)
+![Template](https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/slide2.PNG  =250x250)
