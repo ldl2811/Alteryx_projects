@@ -47,7 +47,7 @@ The template for this project can be found [here](https://github.com/lb930/Alter
 
 1. Instead of creating dummy strings in your template you will need to pre-populate each graph with dummy numeric values which should be unique in the presentation. Once you created the template you can create a copy of it, change the file extension to .zip and unzip the contents to a separate folder. This project unzips it to 02 Workflows\03_Template. This step can become quite tedious if you make lots of changes to your template and can be handled with a batch script in [Unzip template.yxmd](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/00%20Unzip%20template.yxmd).
 
-![](https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/graphs.PNG)
+![Graph](https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/graphs.PNG)
 
 2. For each graph you need to edit two files: an Excel file and the accompanying chart.xml. Input the Excel file from *\02 Workflows\03_Template\ppt\embeddings*. Input the chart xml file from *\03_Template\ppt\charts* with the following settings:
 
