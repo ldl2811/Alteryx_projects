@@ -1,16 +1,16 @@
-## How to automatically populate PowerPoint presentations with Alteryx
+# How to automatically populate PowerPoint presentations with Alteryx
 
 If you find yourself manually updating the same Powerpoint presentations again and again, you may want to automate this process.
 
 This repository contains examples and workflows that you can use to populate your own PowerPoint presentations using [Alteryx](https://www.alteryx.com/products/alteryx-platform/alteryx-designer). Instead of manually replacing values in tables or text boxes, you can use the macro [PPTX_macro_values.yxmc](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/PPTX_macro_values.yxmc).
 
-### Prerequisites
+## Prerequisites
 
 * [Alteryx Designer 2019.3](https://www.alteryx.com/products/alteryx-platform/alteryx-designer)
 * [7-Zip](https://www.7-zip.org/)
 * You will have to change the file paths in the batch script workflows depending on your folder structure.
 
-### Step-by-step guide for text boxes and tables
+## Step-by-step guide for text boxes and tables
 
 1. First, you will need a PowerPoint template. It should look exactly like the finished PowerPoint presentation you are trying to create, but all values will be replaced by unique strings. I usually pick {1}, {2}...etc.
 The template for this project can be found [here](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/template.pptx). If you want to assign different colours to negative or positive values (eg red for negative, green for positive) you should highlight them in a colour that isn't used elsewhere in the presentation. In this case I used #FFC000. The macro will ask you to specify this template colour so it can easily pick up these values.
@@ -43,7 +43,7 @@ The template for this project can be found [here](https://github.com/lb930/Alter
 
 8. Create a 04 PPTX folder and run the [PPTX_bat.yxmd](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/03%20PPTX%20bat.yxmd) workflow to generate your presentation. You will most likely have to change the file paths in this workflow according to your folder structure. This script zips up 02_Replacement, adds yesterday's date as suffix and renames it to a .pptx file.
 
-### Step-by-step guide for graphs
+## Step-by-step guide for graphs
 
 1. Instead of creating dummy strings in your template you will need to pre-populate each graph with dummy numeric values which should be unique in the presentation. Once you created the template you can create a copy of it, change the file extension to .zip and unzip the contents to a separate folder. This project unzips it to 02 Workflows\03_Template. This step can become quite tedious if you make lots of changes to your template and can be handled with a batch script in [Unzip template.yxmd](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/00%20Unzip%20template.yxmd).
 
