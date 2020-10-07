@@ -314,33 +314,39 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <UseFileInput value="False" />
+          <UseFileInput value="True" />
           <Name>Input1</Name>
           <Abbrev />
           <ShowFieldMap value="False" />
           <Optional value="False" />
-          <TextInput>
+          <FileInput>
             <Configuration>
-              <NumRows value="1" />
-              <Fields>
-                <Field name="Field_1" />
-              </Fields>
-              <Data>
-                <r>
-                  <c>1</c>
-                </r>
-              </Data>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\bezlui\Documents\Projects\Populating pptx files\02 Workflows\03_Template\ppt\slides\slide4.xml</File>
+              <FormatSpecificOptions>
+                <CodePage>65001</CodePage>
+                <Delimeter>|</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>2540000</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>False</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
             </Configuration>
-          </TextInput>
+          </FileInput>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText />
+          <DefaultAnnotationText>slide4.xml</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Field_1" source="TextInput:" type="Byte" />
+            <Field name="Field_1" size="2540000" source="File: C:\Users\bezlui\Documents\Projects\Populating pptx files\02 Workflows\03_Template\ppt\slides\slide4.xml" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -367,7 +373,7 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Concat_Field_1" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+            <Field name="Concat_Field_1" size="1073741823" source="Summarize: Concat - Field_1" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -396,7 +402,7 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Concat_Field_1" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+            <Field name="Concat_Field_1" size="1073741823" source="Summarize: Concat - Field_1" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -420,7 +426,7 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -446,7 +452,7 @@
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
           </RecordInfo>
           <SortInfo>
             <Field field="RecordID" order="Asc" />
@@ -491,7 +497,7 @@ EndsWith([Concat_Field_1],"&lt;/a:t")</DefaultAnnotationText>
         <MetaInfo connection="True">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
           </RecordInfo>
           <SortInfo>
             <Field field="RecordID" order="Asc" />
@@ -500,7 +506,7 @@ EndsWith([Concat_Field_1],"&lt;/a:t")</DefaultAnnotationText>
         <MetaInfo connection="False">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
           </RecordInfo>
           <SortInfo>
             <Field field="RecordID" order="Asc" />
@@ -533,8 +539,8 @@ EndsWith([Concat_Field_1],"&lt;/a:t")</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
-            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or&#xA;(Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')'))) and Contains([Concat_Field_1], '&lt;/a:t')&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
+            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or Contains([Concat_Field_1], '▼')&#xA;or (Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')')) &#xA;and Contains([Concat_Field_1], '&lt;/a:t'))&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
             <Field description="Formula: if isnull([RegExOut1]) then [Row+1:RegExOut1] else [RegExOut1] endif" name="RegExOut1" size="1073741823" source="Formula: if isnull([RegExOut1]) then [Row+1:RegExOut1] else [RegExOut1] endif" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut2" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut3" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
@@ -570,7 +576,7 @@ EndsWith([Concat_Field_1],"&lt;/a:t")</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
             <Field description="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" name="RegExOut1" source="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" type="Double" />
           </RecordInfo>
           <SortInfo>
@@ -598,7 +604,7 @@ EndsWith([Concat_Field_1],"&lt;/a:t")</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="Formula: if [RegExOut1]&gt;0 then Replace([Concat_Field_1], 'FFC000', '9FD2FC')&#xA;elseif [RegExOut1]&lt;0 then Replace([Concat_Field_1], 'FFC000', 'FFB35C')&#xA;else Replace([Concat_Field_1], 'FFC000', 'FCFCFC')&#xA;endif" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="Formula: if [RegExOut1]&gt;0 then Replace([Concat_Field_1], 'FFC000', '9FD2FC')&#xA;elseif [RegExOut1]&lt;0 then Replace([Concat_Field_1], 'FFC000', 'FFB35C')&#xA;else Replace([Concat_Field_1], 'FFC000', 'FCFCFC')&#xA;endif" type="V_WString" />
             <Field description="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" name="RegExOut1" source="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" type="Double" />
           </RecordInfo>
           <SortInfo>
@@ -627,7 +633,7 @@ EndsWith([Concat_Field_1],"&lt;/a:t")</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="(Multiple Sources)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="(Multiple Sources)" type="V_WString" />
             <Field description="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" name="RegExOut1" source="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" type="Double" />
           </RecordInfo>
         </MetaInfo>
@@ -652,7 +658,7 @@ EndsWith([Concat_Field_1],"&lt;/a:t")</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="(Multiple Sources)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="(Multiple Sources)" type="V_WString" />
             <Field description="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" name="RegExOut1" source="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" type="Double" />
           </RecordInfo>
           <SortInfo locale="0">
@@ -685,7 +691,7 @@ EndsWith([Concat_Field_1],"&lt;/a:t")</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="1" size="2147483647" source="CrossTab:Header:Header:1:Concat:" type="V_String" />
+            <Field name="1" size="1073741823" source="CrossTab:Header:Header:1:Concat:" type="V_WString" />
           </RecordInfo>
           <SortInfo>
           </SortInfo>
@@ -714,7 +720,7 @@ Header = '1'
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="Formula: [Concat_Field_1]+'&gt;'" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="Formula: [Concat_Field_1]+'&gt;'" type="V_WString" />
             <Field description="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" name="RegExOut1" source="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" type="Double" />
             <Field name="Header" size="1073741823" source="Formula: '1'" type="V_WString" />
           </RecordInfo>
@@ -749,8 +755,8 @@ Header = '1'
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
-            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or&#xA;(Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')'))) and Contains([Concat_Field_1], '&lt;/a:t')&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
+            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or Contains([Concat_Field_1], '▼')&#xA;or (Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')')) &#xA;and Contains([Concat_Field_1], '&lt;/a:t'))&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
             <Field description="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" name="RegExOut1" size="1073741823" source="Formula: if isnull([RegExOut1]) then [Row-1:RegExOut1] else [RegExOut1] endif" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut2" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut3" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
@@ -782,8 +788,8 @@ RegExOut1...</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
-            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or&#xA;(Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')'))) and Contains([Concat_Field_1], '&lt;/a:t')&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
+            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or Contains([Concat_Field_1], '▼')&#xA;or (Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')')) &#xA;and Contains([Concat_Field_1], '&lt;/a:t'))&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut1" size="1073741823" source="Formula: if [Positive or negative]='negative' then '-' + [RegExOut1] else [RegExOut1] endif" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut2" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut3" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
@@ -802,21 +808,20 @@ RegExOut1...</DefaultAnnotationText>
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField expression="if (Contains([Concat_Field_1], '-')&#xA;or&#xA;(Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')'))) and Contains([Concat_Field_1], '&lt;/a:t')&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" field="Positive or negative" size="1073741823" type="V_WString" />
+            <FormulaField expression="if (Contains([Concat_Field_1], '-')&#xA;or Contains([Concat_Field_1], '▼')&#xA;or (Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')')) &#xA;and Contains([Concat_Field_1], '&lt;/a:t'))&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" field="Positive or negative" size="1073741823" type="V_WString" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>Positive or negative = if (Contains([Concat_Field_1], '-')
-or
-(Contains([Concat_...</DefaultAnnotationText>
+or Contains([Concat_F...</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
-            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or&#xA;(Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')'))) and Contains([Concat_Field_1], '&lt;/a:t')&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
+            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or Contains([Concat_Field_1], '▼')&#xA;or (Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')')) &#xA;and Contains([Concat_Field_1], '&lt;/a:t'))&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
           </RecordInfo>
           <SortInfo>
             <Field field="RecordID" order="Asc" />
@@ -862,8 +867,8 @@ or
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
-            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or&#xA;(Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')'))) and Contains([Concat_Field_1], '&lt;/a:t')&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
+            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or Contains([Concat_Field_1], '▼')&#xA;or (Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')')) &#xA;and Contains([Concat_Field_1], '&lt;/a:t'))&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut1" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut2" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut3" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
@@ -909,7 +914,7 @@ or
         <MetaInfo connection="True">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
           </RecordInfo>
           <SortInfo>
             <Field field="RecordID" order="Asc" />
@@ -918,7 +923,7 @@ or
         <MetaInfo connection="False">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
           </RecordInfo>
           <SortInfo>
             <Field field="RecordID" order="Asc" />
@@ -946,8 +951,8 @@ or
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
-            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or&#xA;(Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')'))) and Contains([Concat_Field_1], '&lt;/a:t')&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
+            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or Contains([Concat_Field_1], '▼')&#xA;or (Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')')) &#xA;and Contains([Concat_Field_1], '&lt;/a:t'))&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut1" size="1073741823" source="Formula: if [Positive or negative]='negative' then '-' + [RegExOut1] else [RegExOut1] endif" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut2" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut3" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
@@ -974,8 +979,8 @@ or
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="2147483647" source="TextToColumns: Parsed from Concat_Field_1" type="V_String" />
-            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or&#xA;(Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')'))) and Contains([Concat_Field_1], '&lt;/a:t')&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Concat_Field_1" name="Concat_Field_1" size="1073741823" source="TextToColumns: Parsed from Concat_Field_1" type="V_WString" />
+            <Field name="Positive or negative" size="1073741823" source="Formula: if (Contains([Concat_Field_1], '-')&#xA;or Contains([Concat_Field_1], '▼')&#xA;or (Contains([Concat_Field_1], '(') and Contains([Concat_Field_1], ')')) &#xA;and Contains([Concat_Field_1], '&lt;/a:t'))&#xA;then 'negative'&#xA;elseif  Contains([Concat_Field_1], '&lt;/a:t') then'positive'&#xA;else null()&#xA;endif" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut1" size="1073741823" source="Formula: if [Positive or negative]='negative' then '-' + [RegExOut1] else [RegExOut1] endif" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut2" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
             <Field description="RegEx: Parsed from Concat_Field_1" name="RegExOut3" size="1073741823" source="RegEx: Parsed from Concat_Field_1" type="V_WString" />
@@ -1146,7 +1151,7 @@ or
                 </r>
                 <r>
                   <c>{23}</c>
-                  <c>1500</c>
+                  <c>▼1500</c>
                 </r>
               </Data>
             </Configuration>
@@ -1814,7 +1819,7 @@ Last Updated: 30/09/2020</Text>
       <ModuleType>Macro</ModuleType>
       <MacroCustomHelp value="False" />
       <MacroDynamicOutputFields value="False" />
-      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAAKsAAACrCAYAAAAZ6GwZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvQAADr0BR/uQrQAAFSlJREFUeF7tnXuQVNWdx/0nJcXM9MzwUCASIxpjUAyGqNjdA5utFSi2lmwlRWrdLdfshoeAaACzPiBRNJGgPGYF5BGeCvPEEZSHrrWi4lbGMIHp7glMQbbYuCroRKKIyGP4/fb3u31m+0736Znb3ffV3b9v1aeAme6+t8/5cO6555577mWSnoP7xvaBw+HrIVY1Dg6FpkMs/BSxAVrDOyEa3g/R0GH68336swMi4dP093PEJeNP49/08/jv+XX7jffx+/lzjM+jz6XPx+Nj+6hNSiS9B9vGDoJIcBJEQgswGm4g2Y6QZBfp7+g0vB3eHv2dthtawPvB+6N2TVLsITGGkRRTqMXbRIIcIy6ZBfIa3h9jv4z9C06hnw1Tuy4p9PChlg7DE6jyl8dbzbCv5OwN3l+138v5e0jXocACRydcDtHgRIiFuPU8pZMgX+HvY3wv/n70PdVXluRbsC04klqhFVShHbqKLjT4e/L3pX7uSFUEEj+HztxL433QUDNVXl4d4u2CvzfxrtHHbRtbqopG4pfEz+JDC6llOamrwGKFy4PLRUYVfBBorbqGKmQNtaRndJUlxOHyMcqJyksVncStQKxqKMS4Pxo+q6scQQ+Xl1FuVH6qKCVOhQq8klqJxXRo+zy5IgTrcPlxOdLfK1XRSuwKtoz6inHiFAl/kFzwQvZweUKMTsSofFVRS3IJtQKjqVAPEKArcCE3uFzj5RsarYpckmmg+bYAxEJLqRDP6wpZsBcuZ+oaLONyV1UgsRJjJlIkfExXqIKzcLlz+auqkKQL9Z36UmEtgWj4gq4gBXfg8ud64PpQVSMxByKjR1BBtSQXnOApLVwvqookHIiF76b/yZ9pCkvwGK4Xrh9VVcUbYxZ+NFxNHXtXJjgL2UEnX51cT1xfquqKK8b1/Gj4DV3hCP7EqK9im2cAB8PD6Yu36wpE8Ddcb1x/qioLO3Ao+D36wh/pCkLID7j+uB5VlRZm6ItOpi8qM6QKAFWPk1XVFlagreoeOpH6MvlLC/kL1yfXq6riwgidTc6CSFgumxYgXK9cv6qq8zsQC8+kQ4ZckSpguH65nlWV52egLUSHfmlRiwGjniPBH6uqz6/QF5hMh4dzyV9KKFxUfefXSZcanpKz/iKE6z1vhrXUgL+MoxYxXP++v3CgLqHKlSmBhW337aVZNSlFrvUL/4/hgx8nv9COVet2WChu2AuliD8Sn48a6tTtrFDcsBe+mQ8LkTEjZOK00BPGBG7yRCnjTfgeHWyVW1Ey4lAQcd93EHfcSNyAGAnpX1d4tHh6Txf9j1mi2SmBYQnf+S7i7psRt1yHuHwo4qP9EO8rQ5xegjilL+LjxH9cUzTCUndgiVLH3cCh4DjqPMs1f6b5dpJuJGLtNxFXfY0kHIj4QADxXpJyKgnJYupgWbcRRSIs+wKxoLu3eRsLUERCxXdf/+/vQHzjFsSm4Yjrvo64aBDivHLEGaU9S5mOLlmLSVh+RoKbC2nwyh26HSkYWkmat0chvjICcdO1iEuvQny4Mn4In6YO4XZglpV5rVha2NAypZKzof8Zo4nCmUn121sRX/02yfINxBV0CP/FAMT71SFcJ5idJMtaJMKyP+yRUsqZ8GpzdFJ1QLcDvufAaMT/pEN447cQ19Ah/FdXIs7N4RBuBzpZi0ZY8sjJ1QshUsXLTvp7NT8eGnrrO4gv34S4YRjiM0MQH6pAnMWHcBJBJ41XpJOVKXBh2SP2Sallb2gDlbQB/6yPGiH+67uIe+kQ/gIdwv99KOKC/vFDeNfQkN/pSVam8IVln+xf0BhajZWStRt1nHdvR3ydDuH1NyCupkP4k1cgzvH4EG4HvcnKFLqw0dBipZg9gaNjr6IOsfNLox+8I3F1Zz1V0uLBiD/z6SHcDqzIyhSwsOyVrc84gNbwSt2GbIPFnN8PcXYeHcLtwCzrauKJHqimvveqq71hE9XPIWpIdHVnAxANr1Sq5Rb1+B5nn4rCouoqs9Axy7pE/cyPPEjsvNIxYdkvWx57BLHwat0GbEVk9b+svI9OCkueKeWyS/w2FRceiCay5oesDgpreJbLbTAYCz2u+2DbEVnzR1YHhWXflHqZBVrvLKG+hDvPQhVZ80tWZof9wrJv7J1S0HogVvUT3Qc6gsiam6zz6Gz90RGIs67Q/z5XdLIyTghL3ikFrYf6EM26D3MEkTUDWUsQZw9GfHg44sz+8Z+9+HPE818gfnoCsbkecenfIk4tTXpfDqSTlbG5SwCR0LtKQWvBtuBIapLde16/yNq7rA99C3E7SfnHZsTP/4x47gziU38V/13TY9gtnRcQW16iFndY6udkQ0+yMjYKa3hH/ikVew9Egit0H+QYImt6WWeTCK/8GvHMJ8pEUxb9dfw1ybJ25YPD1D24OfUzM6U3WRlbhQ2uUCr2HDg64XLqAnToPsQxRFa9rA9Ta3r0HWWeJr3Jyjn+e8T7v5r62ZlgRVbGJmHZP/ZQKZk+cDA4EaIuTwMUWVNl5UP4+39QxqWJFVk5e5d1/+xMsSorY4Ow7B9EgxOVkulDL96c/GbHEVm7yzqjksrlVWVaD7Eq6xd/Qfy3byY+P1MykZWxp4XdrJTUB4+P7UNnY6c0b3QWkbW7rOv/FRFAmdZDrMrKef6+xOdnSqayMjkKa3hIPio1UwOxqvG6NzqOyJqQddbA+ImRlWQi6+8au287E7KRlclV2NbwBKVmaqivsFz3JscRWROyLv4ba60qJxNZ//jb7tvOhGxlZXIQln1UaqYGIuEjujc5jsiakHX308ouC+mSdc3dVI57e+bN33TfdibkIiuTpbDso1Kze+iXw8hk9y4EmBFZE7LyYL7VdMnqNLnKymRxaVb5OEwpmghEglOSX+waImtCVj5cW83SifE+rhWmlaVu3yp2yMpkIyx5qRRNhCzepHuxK4isCVnb31YmWghfduX5AL1x6n3EhSRJ8vatYpesTIZdAvZSKZoIRENHdS92BZE1IStPRLE7PMnlkRtTt28VO2VlMhCWvVSKxgMHqga7OnElGZE1IWvjo8owG/PJ/yLOyKGM7ZaVsSgs91vZT6Uq91fHTNK90DVE1oSsj90anzVlZ97emLrtTHBCVsaqsG1jJilVWdbQAt2LXENkTcg6vQLxyJvKMhvSeR7x6TtTt50JTsnKWBAWYqEFSlVj2Koh+QWuYresz0xAfO4u61R/n05Abo9PatZ9nlPoZGWeGW9f69rSlPtEbCdlZXoXtkGpyi2rRxcDurBb1uMtqqYyyKXO+FnzvnW5nYxkQjpZp5YhvlZNO2XxSla6/PlP9F2Gd99mNjgtK9ODsNRvbTdENSavREMXdS9yDT/Ias7pDsTNM+y9NURHOlkZvmWFW8Vsw8NafOnW/JnZ4oasTBphDT95UgscDl+f/EvX8ZusHD4MN853VtieZGVmDkB8fQXty0W1UxZzoh3xl1SuyZ+XLW7JyqQTljzlmVbjkn/hOn6UlXPxHOKzP9Rvww56k5XhK0/Vf4/437+jXsEltWNpwq0pzy2Yc7X+s7LFTVkZzZUuaK0azydX08w/9AQ3ZD1xlArhiVR2Pkn91LWIHcfVC5Nykt43e5B+O7liRdYueJyUD+uvLkNsfys+jfDksfh35el/G6aQVNfq35srbsvKJAlLXYHpfHK1qJs4XuCGrK279a/t4qdDaV/SzM7PZeJyT2QiazLTAmqg34VVF72QlTEJy57ywmsbUuRxGz/IyjxyU/wWkOTwuKcTfddcZHUTr2RlVB8WIqGNPIFlh1YgN/GLrMy7mmvzPDow52v61+eCyGoNEhYOjd7Bsu7XCuQmfpK16XH1BlP4bNyJsVeR1TLQ1L+VZT2sFchN/CQrD1cl5xKdhfNaUrrX54JZ1upKxAeucod7K/T7kw4/yFpf/hHL+r5WIDfxk6xvrVdvMOXsp1RhNi3FY8Ys675/Qfz0pDus+gf9/qTDF7IGzrCs7q6+osMvsj7wVcRP3lNvMOW9COL0cv17csEs6zsz1cZcyLof6/cnHX6QtTZwnoeuTmsFchM/yDo9gLhniXpxUvjnuvfkishqGagt62RZvX8Oqxuy/qk1PnCuY9tc2o/X4pNZknP2M2f6q4zIahmoKQGW1bs7BLpwQ9asAoivLKLPdGjg3SxrXRDx5V+5A0/w1u1POnwgK1M8LWs2ieyJTybRbcMOzLLK0FXP1JQYshZHnzWTcHeALw44NSegC5HVMlBbeql4RgOs5OJ5xP85iLj2n505+0/GLOtK+o8x/2Z3uC/DZw/44wTrYvGMs354JH7nqI7aBxFX/1O8L+eGpF2YZd1/L7XoF91h7T36/UmHH2StKzsrV7C8xCyrjAb0CNQHOlhWmRvgFSKrZUjWNpZVZl15hchqGagt2SvzWb3ELOvmm+ISucFDN+j3Jx1+kLWmtI6HrhZpBXITkVWGrnoBGirWFc89WCJr9viiz1r+YPHc3ep3Wdd/A3H5990h0ycP+kHWxvIfFM+6AXKClQj3W3X7kw4/yLprSLAwV2RhMXleqpn9W/Sv9RKR1RKwrQSg+bqAsYQQnWQV1lpXfNsGP/jMjJtXpqwisloC6gIfG6JySJjCWkUwXxBZLQG1pbuUqrI+q2eYZV09FPHJoDvw7Tu6/UmH17I2ViSehyUrX3uEWVYZukoL1AfuUqqSrPJMAW8QWXsFtvUF2D3keqVqPPxUDK1IbiCyIm4dFZ+q6Abzv63fn3R4KWtdWYdSNBGQ52C5j5xg9QrUBrYrRRORJwx6gMjaK1BfPlcpmghJI89udRuRtUeM/uqeIbcoRbsHYvJUbFcxy/rmlPhym27w3D/q9ycdXslaW3ZCqZkaalmXa2VyGpEV8dkBJMW17jCjv35/0uGVrPWBjUrN1ECsarxWJqcRWWXoSgPUV/5IqZkaY1JLJHRKK5STiKwiaxJQU/Il7FGTV9KF5NmcIpPTiKwiaxLUBWhSSqYPRIMTqe8KWqmcQmQVWZOAxsrEJdZ0gaMTLodoyN1VWkRWkdUE1JR+gQ0DS5WSPQciwRVaqZxCZBVZTUBd+QtKxd6DbcGRrk5sEVlFVoVxIWDHgDFKRWuhrkCzViwnEFlFVgXUlR1WCloPxKp+ohXLCURWkVUBdZXzlILWA613llBX4KRWLrsRWUVWAmpKTsOrV/VTCmYWiIQWauWyG5FVZCWgvrxaqZd5jDsIoqEzWsHsRGQtellhW8kF3HXFMKVedqGuwBqtYHYisoqsdeV1SrnsA61V15CwZ7WS2YXIWtSyUl/1Auy88kalXG6B1vBKrWR2sWow4jza8ZnENEJXYIWIWdY1xBM+5RnCJJfdUF91q1It90CsaiidbH2uFc0ODt0Rf678C7TzvyGeJZ4i5hM/Je4lphK6Cs9nzLIWKdRXPQ9NA7rfvZproDW0WCuaXXQJq/lCuIVYSywjniQeJmYT04l8llhk5dlVa5Vi9oWEqoRo+IMUyeykJ2F1bCKeI/gwxRXPfat86koUuaxQW3IKdw0cpBSzNxCpmkInW85OH8xU2GS4K7GeWEH8mlhAzCFmEH6TuNhlbSjP/GqV1WDLqK+QrAe0ktlJrsLqeJ7grkQ18UviEYK7El72h4tYVqgpbcd9V/dRajkTOtEaTTj/vFcnhNWxmVhN8NDRQuJnxCyC+8M6weykSGWFrX07oWngOKWUs4FoaJlWMLtxS9hkthIbiJXEYuLnxFzC7q5Escra2MNdq3YHmm8LkLDHtILZjVfC6uD+8DqCuxI8tPYo8QCRbVeiCGWF2tIP8eXBA5RK7gRiwXEQDV/QCmY3fhJWBw+tcVdiKcGD6A8R9xG9Da0VmaywrW8nNvabrBRyN3SytUQrlxP4XdhkuCuxkVhFPE08RvBVOnNXothkravYoNRxP9gyqi+J1JIillPkm7A6zFfpWGTdawoQOvy34+vDypU63gQiY0ZQC/uZVi4nKARhiwxjwYqmK+5QyngbiIXvhkioUyuXE4iweQP1Uy9BY8X9ShV/hE62qrViOYUImxdAfWCLUsQ/wX388LfwG1qxnEKE9Td1ZS2wo3+ZUsRfwbaxg0jYdq1YTiHC+hKoKX0PX7ry60oNfwYOhoeTsB9pxXIKEdZXQG3JZ/By/1uVEv4OHAp+j4R1/kZDMyKsL4CavufgxYpJSoX8CAk0GSKhcylSOYkI6yl05n8BGiunKgXyK9AWuodaWOdnaJkRYT3BmEn1Yr85qurzMxALzyRh3ZlD0IUI6yrGWOr2fr9QVZ7foe7ALIhIC1uIGC1qoYjaFWiroi5B6EutWE4hwjqK0UfdXpn6ULVCCAk0WUYJCgMS9XzenkxZjRrWknHYPMYYR32p/9+pKi3sqAsHcqUrD+ErU3kz4G9X1KVZmUuQT9SVtvj+EqpTUZNfqunE66JWLicQYTPGGJqqD2zBfRafoFLIic+HdXkC9w4R1grGxOnGfv6aj+p1IDJ6BIkkt8j4CL4VBRoHBlUVSczhe7r4JkTqGshdsx5Ch/1OaAhs8PyeqXwIxKrGkbTFty6BD6Cz/Q89u106X2MspBELLS2opYp8jHHZtL5io+sLUBRSSNbR1MoeIPy9emEeA3VlR6CpnztrTxV64qsXGstt+mt92DyHzvT/Ag2V8xxfza8YQ0JVQjS0mFpb55eM11RuoWAsjV4fWIu7rnZmIV9JIsYzDqLhldTSOvMUmQIV1ngqSn3ZVtvX8Jf0HvXYozXU2to/k6uAhOUHovFzpmx7fI8k+xjzDCKhhSSuvc+aZWHz+EoXtaSn+RGTOT+5T2J/cN/YUogEp1BL20zyXtIKmCl5Jizw8/rryg7zev1ZP7RX4m6wLTiSWtoVJG6HVsJMyIMuAdSUfkGt6POwY8AYVQSSfAscnXA5RIMTSbrN1NqeShHRKj4UlgT9ks7qX4LGAXfJjKgCCx4f2wdawxMgGl4OsfARankzu9DgsbDGIb627ATUBTZhU7/JsOe6gPpqkkIPCTgs3scNb6JW9xj92Xs/1+U+LPU/O0jQ7XSInwt7htyidl1S7DFGFdrGTIJYaAGJ2UCtcLt2YrgDwsK2EjoxCnwMtaW7oLFiOdRX3gW7h8h4qMR6jLsZDoevh9aq8STudOo6LKJWeCMcvG0nbO/fCnXlH1O/8QzUBs5TC9hJ/Ugw5Ksh+WpLL1HLeIE4S6/pIBn/ALUle6GmrA4aKtZRa/kgNJb/AHYNCcohvbdcdtn/AfHZaJB4JoZ7AAAAAElFTkSuQmCC</MacroImage>
+      <MacroImage>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</MacroImage>
       <MacroInputs />
       <MacroOutputs />
       <Wiz_CustomHelp value="False" />

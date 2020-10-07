@@ -1,4 +1,4 @@
-2020-10-03
+2020-10-06
 set PATH=%PATH%;C:\Program Files\7-Zip
 
 cd C:\Users\bezlui\Documents\GitHub\Alteryx-projects\Populating pptx files\02 Workflows\02_Replacement\ppt\embeddings
@@ -8,8 +8,8 @@ cd C:\Users\bezlui\Documents\GitHub\Alteryx-projects\Populating pptx files\02 Wo
 7z a ..\Company_presentation.zip -tzip -r *.*
 
 cd..
-ren Company_presentation.zip Company_presentation_2020-10-03.pptx
+ren Company_presentation.zip Company_presentation_2020-10-06.pptx
 
-move /Y Company_presentation_2020-10-03.pptx ..\"03 PPTX"
+move /Y Company_presentation_2020-10-06.pptx ..\"03 PPTX"
 
 
