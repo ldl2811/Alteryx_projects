@@ -32,7 +32,7 @@ The template for this project can be found [here](https://github.com/lb930/Alter
 * Set the string length to something very long such as 2540000
 * Change the code page to Unicode UTF-8
 
-6. Output each slide as .csv file into *02_Replacement\ppt\slides*.
+6. Output each slide as .xml file into *02_Replacement\ppt\slides*.
 
 * Use .xml as file extension in the 'Write to File or Database' field, but use .csv as file extension in the 'File Format' field.
 * Use \0 as delimiter
