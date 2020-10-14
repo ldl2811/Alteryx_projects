@@ -32,14 +32,15 @@ The template for this project can be found [here](https://github.com/lb930/Alter
 * Set the string length to something very long such as 2540000
 * Change the code page to Unicode UTF-8
 
-6. Output each slide as .xml file into *02_Replacement\ppt\slides*.
+
+6. Connect your mapping table to the bottom input anchor of the *PPTX_macro_values.yxmc macro* and the slide xml file to the top input anchor. Specify the highlighter colour described in step 1 and assign colour values for positive and negative values. Colours need to be entered as hex codes without #. If this is left blank, the font colour will be the same as in the template. Run the workflow.
+
+7. Output each slide as .xml file into *02_Replacement\ppt\slides*.
 
 * Use .xml as file extension in the 'Write to File or Database' field, but use .csv as file extension in the 'File Format' field.
 * Use \0 as delimiter
 * Deselect *First Row Contains Field Names*
 * Change the code page to Unicode UTF-8
-
-7. Connect your mapping table to the bottom input anchor of the *PPTX_macro_values.yxmc macro* and the slide xml file to the top input anchor. Specify the highlighter colour described in step 1 and assign colour values for positive and negative values. Colours need to be entered as hex codes without #. If this is left blank, the font colour will be the same as in the template. Run the workflow.
 
 8. Create a 04 PPTX folder and run the [PPTX_bat.yxmd](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/03%20PPTX%20bat.yxmd) workflow to generate your presentation. You will most likely have to change the file paths in this workflow according to your folder structure. This script zips up 02_Replacement, adds yesterday's date as suffix and renames it to a .pptx file.
 
