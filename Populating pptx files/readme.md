@@ -33,7 +33,7 @@ The template for this project can be found [here](https://github.com/lb930/Alter
 * Change the code page to Unicode UTF-8
 
 
-6. Connect your mapping table to the bottom input anchor of the *PPTX_macro_values.yxmc macro* and the slide xml file to the top input anchor. Specify the highlighter colour described in step 1 and assign colour values for positive and negative values. Colours need to be entered as hex codes without #. If this is left blank, the font colour will be the same as in the template. Run the workflow.
+6. Connect your mapping table to the bottom input anchor of the *PPTX_macro_values.yxmc macro* and the slide xml file to the top input anchor. Specify the highlighter colour described in step 1 and assign colour values for positive and negative values. Colours need to be entered as hex codes without #. If this is left blank, the font colour will be the same as in the template.
 
 7. Output each slide as .xml file into *02_Replacement\ppt\slides*.
 
@@ -46,7 +46,7 @@ The template for this project can be found [here](https://github.com/lb930/Alter
 
 ## Step-by-step guide for graphs
 
-1. Instead of creating dummy strings in your template you will need to pre-populate each graph with dummy numeric values which should be unique in the presentation. Once you created the template you can create a copy of it, change the file extension to .zip and unzip the contents to a separate folder. This project unzips it to 02 Workflows\03_Template. This step can become quite tedious if you make lots of changes to your template and can be handled with a batch script in [Unzip template.yxmd](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/00%20Unzip%20template.yxmd).
+1. Instead of creating dummy strings in your template you will need to pre-populate each graph with dummy numeric values which should be unique in the presentation. 
 
 ![Graph](https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/graphs.PNG)
 
