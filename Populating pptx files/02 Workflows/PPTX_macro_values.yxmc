@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="60">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="3558" y="702" width="132" height="264" />
+        <Position x="3606" y="702" width="132" height="264" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -26,7 +26,7 @@
     </Node>
     <Node ToolID="59">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="3330" y="702" width="216" height="264" />
+        <Position x="3330" y="702" width="264" height="264" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -66,7 +66,7 @@
     </Node>
     <Node ToolID="57">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="3018" y="402" width="672" height="288" />
+        <Position x="3018" y="402" width="720" height="288" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -341,9 +341,6 @@
           <DefaultAnnotationText>slide4.xml</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Field_1" size="2540000" source="File: C:\Users\bezlui\Documents\Projects\Populating pptx files\02 Workflows\03_Template\ppt\slides\slide4.xml" type="V_WString" />
@@ -670,7 +667,7 @@ EndsWith([Concat_Field_1],"&lt;/a:t")</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="3474" y="846" />
+        <Position x="3438" y="846" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1007,7 +1004,7 @@ or Contains([Concat_F...</DefaultAnnotationText>
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="3594" y="846" />
+        <Position x="3642" y="846" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1491,6 +1488,32 @@ Last Updated: 30/09/2020</Text>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
     </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3534" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="1" selected="True" rename="Field_1" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="1073741823" source="CrossTab:Header:Header:1:Concat:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -1563,7 +1586,7 @@ Last Updated: 30/09/2020</Text>
     </Connection>
     <Connection>
       <Origin ToolID="13" Connection="Output" />
-      <Destination ToolID="25" Connection="Input" />
+      <Destination ToolID="65" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="14" Connection="Output" />
@@ -1628,6 +1651,10 @@ Last Updated: 30/09/2020</Text>
     <Connection>
       <Origin ToolID="63" Connection="Output" />
       <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
