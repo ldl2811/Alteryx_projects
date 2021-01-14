@@ -1,0 +1,2200 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2706" y="534" width="348" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create layout</Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="149" g="202" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2238" y="534" width="456" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create one row for new joiner, hiring manager, director and tables</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="231" g="206" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2058" y="534" width="168" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Intro text</Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="149" g="202" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2058" y="786" width="636" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create hardware table</Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="149" g="202" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2058" y="1014" width="636" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create software table</Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="149" g="202" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1926" y="786" width="120" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join with hiring manager</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="231" g="206" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1794" y="1014" width="252" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join with hiring manager</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="231" g="206" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1518" y="1014" width="264" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Software</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="174" g="255" b="174" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1518" y="786" width="264" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join prep so empty fields can be joined on selected hiring manager</Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="149" g="202" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1794" y="786" width="120" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Hardware</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="174" g="255" b="174" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1170" y="786" width="336" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Clean new joiner email (assuming that the format is firstname.lastname@company.com)</Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="149" g="202" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="618" y="546" width="540" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Select a hiring manager and new joiner email</Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="149" g="202" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="402" y="546" width="204" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input hierarchy</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="174" g="255" b="174" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="462" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>hierarchy.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerText.PortfolioComposerText">
+        <Position x="2118" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Images />
+          <Output>Text</Output>
+          <HeaderMode value="False" />
+          <RawMode value="False" />
+          <ValidatePCXML value="True" />
+          <Message />
+          <RichTextMode value="True" />
+          <RichTextString><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+\viewkind4\uc1\pard\f0\fs23 Hi [New joiner first name:A],\par
+\par
+Nice to meet you and welcome to the team! This email serves as a starting point for your onboarding.\par
+\par
+Please take a look at the checklist and get in touch with the Point of Contact to request access to our software.\par
+\par
+\par
+}
+]]></RichTextString>
+          <Styles>
+            <Style Name="TextStyle" />
+          </Styles>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Hi [New joiner first name:A],
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner first name" size="1073741823" source="Formula: TitleCase([New joiner email1])" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner last name" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTextPlugin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1050" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[#1]" field="New joiner email" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[New joiner email = [#1]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="1038" y="666" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Text Box (6)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="894" y="666" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Drop Down (7)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="906" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Hiring manager</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-01-08 12:24:11</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>hm1_first hm1_last</Operand>
+              <StartDate>2021-01-08 12:24:11</StartDate>
+              <EndDate>2021-01-08 12:24:11</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Hiring manager] = "hm1_first hm1_last"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="1218" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>New joiner email</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>New joiner email</RootName>
+          <Delimeters value="." />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner email1" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner email2" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1422" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="New joiner email1" selected="True" rename="New joiner first name" />
+            <SelectField field="New joiner email2" selected="True" rename="New joiner last name" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner first name" size="1073741823" source="Formula: TitleCase([New joiner email1])" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner last name" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="906" y="762" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="678" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields />
+          <HeaderField field="Hiring manager" />
+          <DataField field="Hiring manager email" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="hm1_first_hm1_last" size="2048" source="CrossTab:Header:Hiring manager:hm1_first hm1_last:Concat:" type="V_String" />
+            <Field name="hm2_first_hm2_last" size="2048" source="CrossTab:Header:Hiring manager:hm2_first hm2_last:Concat:" type="V_String" />
+            <Field name="hm3_first_hm3_last" size="2048" source="CrossTab:Header:Hiring manager:hm3_first hm3_last:Concat:" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="786" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Amandine_Chopin" />
+            <Field name="Andrea_Fazio" />
+            <Field name="Aris_Rigopoulous" />
+            <Field name="Cem_Erel" />
+            <Field name="Clement_Batut" />
+            <Field name="Frances_Bennett" />
+            <Field name="Ignacio_Espinos" />
+            <Field name="Ionut_Popescu" />
+            <Field name="Jakob_Schlegel" />
+            <Field name="Luisa_Bez" />
+            <Field name="Mark_van_Turnhout" />
+            <Field name="Matt_Payne" />
+            <Field name="Nikhil_Antony" />
+            <Field name="Oisin_Whelan" />
+            <Field name="Philipp_Langhammer" />
+            <Field name="Rahel_Ruff" />
+            <Field name="Simon_Beier" />
+            <Field name="Tine_Skovsen" />
+            <Field name="Zoltan_Szilassy" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>replace([_CurrentField_], '_', ' ')</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="hm1 first hm1 last" size="2048" source="CrossTab:Header:Hiring manager:hm1_first hm1_last:Concat:" type="V_String" />
+            <Field name="hm2 first hm2 last" size="2048" source="CrossTab:Header:Hiring manager:hm2_first hm2_last:Concat:" type="V_String" />
+            <Field name="hm3 first hm3 last" size="2048" source="CrossTab:Header:Hiring manager:hm3_first hm3_last:Concat:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1566" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>software_hardware.xlsx
+Query=`Software$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Software" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1806" y="942" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>software_hardware.xlsx
+Query=`Hardware$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hardware" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1578" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Hiring manager first name" selected="False" />
+            <SelectField field="Hiring manager last name" selected="False" />
+            <SelectField field="Hiring manager email" selected="False" />
+            <SelectField field="New joiner email" selected="False" />
+            <SelectField field="New joiner first name" selected="False" />
+            <SelectField field="New joiner last name" selected="False" />
+            <SelectField field="Reports to" selected="False" />
+            <SelectField field="Reports to email" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="2274" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False" />
+          <Width>680</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="Hardware" selected="True" Alignment="Left" Width="15%" />
+            <Field name="Description" selected="True" Alignment="Left" Width="65%" />
+            <Field name="Point of contact" selected="True" Alignment="Left" Width="20%" />
+            <Field name="Senior Manager email" selected="False" />
+            <Field name="Director" selected="False" />
+            <Field name="Director email" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="--Calibri" Size="10" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="B-Calibri" Size="11" TextColor="#ffffff" BackColor="#004080" />
+            <Style Name="Borders" Width="1" DataColor="#ffffff" HeaderColor="#ffffff" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="3" TableBorder="false" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2418" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\bezlui\AppData\Local\Temp\Engine_15504_1e56ed3896764616a7551e044af86622_\Engine_9140_15ceb2b1b8304929bfb53220c7909c9a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
+        <Position x="2946" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupingMode>PerRecord</GroupingMode>
+          <PreserveSourceFields value="False" />
+          <Orientation>V</Orientation>
+          <Separator>Continuous</Separator>
+          <Width>100%</Width>
+          <Height />
+          <BorderStyle Enabled="false" Color="#000000" Width="2" />
+          <SeparatorStyle Enabled="false" Color="#000000" Width="1" />
+          <Padding>0</Padding>
+          <LayoutFields orderChanged="False">
+            <Field name="Text" selected="True" Alignment="Center" Width="" />
+            <Field name="Table" selected="True" Width="" Alignment="Center" />
+            <Field name="Blank" selected="True" Width="" Alignment="Center" />
+            <Field name="Source_Table" selected="True" Width="" Alignment="Center" />
+            <Field name="Text end" selected="True" Alignment="Center" />
+          </LayoutFields>
+          <MergeIntoTable value="False" />
+          <SectionNameForGroup />
+          <SectionNameForAllRecords />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Vertical Layout
+Each Individual Record</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner first name" size="1073741823" source="Formula: TitleCase([New joiner email1])" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner last name" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+            <Field name="To" size="1073741823" source="Formula: [New joiner email] + ';' + [Hiring manager email]" type="V_WString" />
+            <Field name="CC" size="1073741823" source="Formula: [Director email]" type="V_WString" />
+            <Field name="Subject" size="1073741823" source="Formula: [New joiner first name] + ' Onboarding'" type="V_WString" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerLayoutPlugin" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3066" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\bezlui\AppData\Local\Temp\Engine_15504_1e56ed3896764616a7551e044af86622_\Engine_9140_8f9a36aeecf14a56b782c98849ab7e90_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="2370" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner first name" size="1073741823" source="Formula: TitleCase([New joiner email1])" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner last name" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field name="Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1314" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TitleCase([New joiner email1])" field="New joiner email1" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[New joiner email1 = TitleCase([New joiner email1])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner email1" size="1073741823" source="Formula: TitleCase([New joiner email1])" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner email2" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1686" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'Hiring manager'" field="Flag" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Flag = 'Hiring manager'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Flag" size="1073741823" source="Formula: 'Hiring manager'" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1962" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Flag" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Point of contact" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Flag" size="1073741823" source="Formula: 'Hiring manager'" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Flag" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Flag" size="1073741823" source="Formula: 'Hiring manager'" type="V_WString" />
+            <Field name="Hardware" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Flag" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Hardware" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Point of contact" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1794" y="1098" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Flag" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Point of Contact" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Flag" size="1073741823" source="Formula: 'Hiring manager'" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Flag" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Flag" size="1073741823" source="Formula: 'Hiring manager'" type="V_WString" />
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Software" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Flag" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Software" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Point of Contact" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1950" y="1098" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Flag" size="1073741823" source="Formula: 'Hiring manager'" type="V_WString" />
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Software" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1674" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Software" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="2082" y="1098" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RecordID - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Flag" size="1073741823" source="Formula: 'Hiring manager'" type="V_WString" />
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Software" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2202" y="1098" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if [Point of Contact]='Hiring manager' then [Hiring manager] else [Point of Contact] endif" field="Point of Contact" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Point of Contact = if [Point of Contact]='Hiring manager' then [Hiring manager] ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Flag" size="1073741823" source="Formula: 'Hiring manager'" type="V_WString" />
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Software" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="Formula: if [Point of Contact]='Hiring manager' then [Hiring manager] else [Point of Contact] endif" type="V_String" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2334" y="1098" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Hiring manager" selected="False" />
+            <SelectField field="Flag" selected="False" />
+            <SelectField field="RecordID" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Software" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Software$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="Formula: if [Point of Contact]='Hiring manager' then [Hiring manager] else [Point of Contact] endif" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="2466" y="1098" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False" />
+          <Width>680</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="Software" selected="True" Alignment="Left" Width="15%" />
+            <Field name="Description" selected="True" Alignment="Left" Width="65%" />
+            <Field name="Point of Contact" selected="True" Alignment="Left" Width="20%" />
+            <Field name="Senior Manager" selected="False" />
+            <Field name="Senior Manager email" selected="False" />
+            <Field name="Director" selected="False" />
+            <Field name="Director email" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="--Calibri" Size="10" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="B-Calibri" Size="11" TextColor="#ffffff" BackColor="#004080" />
+            <Style Name="Borders" Width="1" DataColor="#ffffff" HeaderColor="#ffffff" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="3" TableBorder="false" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2610" y="1098" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\bezlui\AppData\Local\Temp\Engine_15504_1e56ed3896764616a7551e044af86622_\Engine_9140_551d401b68444f6ca6e4a5395c5e50b4_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2178" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Hiring manager" selected="False" />
+            <SelectField field="Flag" selected="False" />
+            <SelectField field="Senior Manager" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hardware" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="Formula: [Hiring manager]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="2574" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Source_Table" selected="True" rename="Source_Table" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner first name" size="1073741823" source="Formula: TitleCase([New joiner email1])" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner last name" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field name="Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+            <Field name="Blank" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field name="Source_Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerText.PortfolioComposerText">
+        <Position x="2466" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Images />
+          <Output>Blank</Output>
+          <HeaderMode value="False" />
+          <RawMode value="False" />
+          <ValidatePCXML value="True" />
+          <Message />
+          <RichTextMode value="True" />
+          <RichTextString><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+\viewkind4\uc1\pard\fs24\par
+\par
+}
+]]></RichTextString>
+          <Styles>
+            <Style Name="TextStyle" />
+          </Styles>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner first name" size="1073741823" source="Formula: TitleCase([New joiner email1])" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner last name" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field name="Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+            <Field name="Blank" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTextPlugin" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerText.PortfolioComposerText">
+        <Position x="2838" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Images />
+          <Output>Text end</Output>
+          <HeaderMode value="False" />
+          <RawMode value="False" />
+          <ValidatePCXML value="True" />
+          <Message />
+          <RichTextMode value="True" />
+          <RichTextString><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Arial;}}
+\viewkind4\uc1\pard\f0\fs23\par
+\par
+In case you still have any questions regarding the aforementioned topics, please check with me.\par
+\par
+Kind regards,\par
+\par
+[Hiring manager first name:A]\f1\fs24\par
+}
+]]></RichTextString>
+          <Styles>
+            <Style Name="TextStyle" />
+          </Styles>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[
+
+In case you still have any q...]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner first name" size="1073741823" source="Formula: TitleCase([New joiner email1])" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner last name" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field name="Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+            <Field name="Blank" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field name="Source_Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+            <Field name="To" size="1073741823" source="Formula: [New joiner email] + ';' + [Hiring manager email]" type="V_WString" />
+            <Field name="CC" size="1073741823" source="Formula: [Director email]" type="V_WString" />
+            <Field name="Subject" size="1073741823" source="Formula: [New joiner first name] + ' Onboarding'" type="V_WString" />
+            <Field name="Text end" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTextPlugin" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2730" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[New joiner email] + ';' + [Hiring manager email]" field="To" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Director email]" field="CC" size="1073741823" type="V_WString" />
+            <FormulaField expression="[New joiner first name] + ' Onboarding'" field="Subject" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>To = [New joiner email] + ';' + [Hiring manager email]
+CC = [Director email]
+Sub...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager first name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager last name" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Hiring manager email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="New joiner email" size="1073741823" source="Formula: [#1]" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner first name" size="1073741823" source="Formula: TitleCase([New joiner email1])" type="V_WString" />
+            <Field description="TextToColumns: Parsed from New joiner email" name="New joiner last name" size="1073741823" source="TextToColumns: Parsed from New joiner email" type="V_WString" />
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field name="Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+            <Field name="Blank" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field name="Source_Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+            <Field name="To" size="1073741823" source="Formula: [New joiner email] + ';' + [Hiring manager email]" type="V_WString" />
+            <Field name="CC" size="1073741823" source="Formula: [Director email]" type="V_WString" />
+            <Field name="Subject" size="1073741823" source="Formula: [New joiner first name] + ' Onboarding'" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="1014" width="312" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Yellow sticky notes for handovers and WIP</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="255" b="151" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="894" width="312" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Red for To-Do lists on unfinished workflows</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="147" b="147" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="774" width="312" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Orange for test tool segments</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="188" b="121" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="654" width="312" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Purple for joins and unions</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="231" g="206" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="534" width="312" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Blue to highlight general data prep</Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="149" g="202" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="402" width="312" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Green for inputs and outputs</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="174" g="255" b="174" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="306" width="312" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Documentation Guide:</Text>
+          <Font name="Segoe UI" size="20.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="6" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="54" width="1164" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Onboarding email</Text>
+          <Font name="Segoe UI" size="48" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="210" width="732" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Workflow built by: Luisa Bez
+Workflow edited by: 
+Last Updated: 11/01/2021</Text>
+          <Font name="Segoe UI" size="15.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="150" width="1164" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sends an email to new joiners</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="1146" width="312" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Interface tools</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="238" g="238" b="238" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+        <Position x="1086" y="750" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>email invalid</AnnotationText>
+          <DefaultAnnotationText>regex_countmatches([#1],"^((([!#$%&amp;'*+\-/=?^_`{|}~\w])|([!#$%&amp;'*+\-/=?^_`{|}~\w][!#$%&amp;'*+\-/=?^_`{|}~\.\w]{0,}[!#$%&amp;'*+\-/=?^_`{|}~\w]))[@]\w+([-.]\w+)*\.\w+([-.]\w+)*)$")=0
+A VALID Email address is required</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2070" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Hiring manager]" field="Point of contact" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Point of contact = [Hiring manager]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Hiring manager" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Director email" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\hierarchy.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Flag" size="1073741823" source="Formula: 'Hiring manager'" type="V_WString" />
+            <Field name="Hardware" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+            <Field name="Description" size="255" source="File: C:\Users\bezlui\Documents\GitHub\Alteryx_projects\Onboarding automation\01 Data\software_hardware.xlsx|||`Hardware$`" type="V_String" />
+            <Field name="Point of contact" size="255" source="Formula: [Hiring manager]" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Flag" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="3113" y="605" width="223.2175" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Email - needs to be set up</Caption>
+          <Style TextColor="#314c4a" FillColor="#b8fec2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="74">
+          <GuiSettings Plugin="PortfolioPluginsGui.Email.Email">
+            <Position x="3138" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SMTPServerName>something</SMTPServerName>
+              <ToIsField value="True" />
+              <To>To</To>
+              <CcIsField value="True" />
+              <Cc>Director email</Cc>
+              <BccIsField value="False" />
+              <Bcc />
+              <FromIsField value="False" />
+              <From>your_email</From>
+              <SubjectIsField value="True" />
+              <Subject>Subject</Subject>
+              <BodyIsField value="True" />
+              <Body>Layout</Body>
+              <UserName />
+              <Password />
+              <Enabled>True</Enabled>
+              <Port>25</Port>
+              <Encryption>None</Encryption>
+              <SMTPAuth value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxComposerEmail" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="13" Connection="Action" />
+      <Destination ToolID="10" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="27" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="27" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="6" Connection="Question" />
+      <Destination ToolID="4" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="6" Connection="Question" />
+      <Destination ToolID="72" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Question" />
+      <Destination ToolID="13" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="7" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="31" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Right" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="42" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="42" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (6)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Drop Down (7)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>onboarding_email</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="13" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>hm1_first hm1_last</ReplaceText>
+              <Destination>10/Simple/Operands/Operand</Destination>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>A VALID Email address is required</Description>
+              <ToolId value="72" />
+              <Expression>regex_countmatches([#1],"^((([!#$%&amp;'*+\-/=?^_`{|}~\w])|([!#$%&amp;'*+\-/=?^_`{|}~\w][!#$%&amp;'*+\-/=?^_`{|}~\.\w]{0,}[!#$%&amp;'*+\-/=?^_`{|}~\w]))[@]\w+([-.]\w+)*\.\w+([-.]\w+)*)$")=0</Expression>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (5)</Name>
+          <ToolId value="5" />
+          <Questions>
+            <Question>
+              <Type>Label</Type>
+              <Description>This app sends an onboarding email to the new joiner, the hiring manager, the director as well as the main POCs.</Description>
+              <Name>Label (47)</Name>
+              <ToolId value="47" />
+            </Question>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>New joiner email</Description>
+              <Name>Text Box (6)</Name>
+              <ToolId value="6" />
+              <Default />
+              <Password value="False" />
+              <Multiline value="False" />
+              <Hidden value="False" />
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Hiring Manager</Description>
+              <Name>Drop Down (7)</Name>
+              <ToolId value="7" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>Field</Mode>
+              <Field_ToolId value="16" />
+              <Field_ConnectionName />
+              <Field_Connection>Output</Field_Connection>
+              <Field_IsOutput value="True" />
+              <Field_IncludeNone value="False" />
+              <Field_FilterTypes>String,WString,V_String,V_WString</Field_FilterTypes>
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="23" Selected="False" />
+        <Tool ToolId="26" Selected="True" />
+        <Tool ToolId="38" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
