@@ -1,4 +1,4 @@
-# Alteryx_projects
+# Alteryx Projects
  Contains various Alteryx projects
 
 ## Content
