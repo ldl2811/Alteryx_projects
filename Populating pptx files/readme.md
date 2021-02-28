@@ -15,7 +15,9 @@ This repository contains examples and workflows that you can use to populate you
 1. First, you will need a PowerPoint template. It should look exactly like the finished PowerPoint presentation you are trying to create, but all values will be replaced by unique strings. I usually pick {1}, {2}...etc.
 The template for this project can be found [here](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/template.pptx). If you want to assign different colours to negative or positive values (eg red for negative, green for positive) you should highlight them in a colour that isn't used elsewhere in the presentation. In this case I used #FFC000. The macro will ask you to specify this template colour so it can easily pick up these values.
 
-![Template](https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/slide2.PNG)
+<p>
+    <img src="01 Screenshots/slide2.PNG" width="600" height="300" />
+</p>
 
 2. Create a copy of your template, change the file extension to .zip and unzip the contents to a separate folder. This project unzips it to 02 Workflows\03_Template. This step can become quite tedious if you make lots of changes to your template and can be handled with a batch script in [Unzip template.yxmd](https://github.com/lb930/Alteryx_projects/blob/main/Populating%20pptx%20files/02%20Workflows/00%20Unzip%20template.yxmd).
 
@@ -23,7 +25,9 @@ The template for this project can be found [here](https://github.com/lb930/Alter
 
 4. Next, create a mapping table with the columns *Name* and *Value*. *Name* contains your dummy strings whereas *Value* contains your real data. For simplicity's sake I have used a text input, but you will most likely generate this table with a separate workflow that generates your data.
 
-![mapping table](https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/Mapping_table.JPG)
+<p>
+    <img src="01 Screenshots/Mapping_table.PNG" width="600" height="300" />
+</p>
 
 5. Each slide is stored as .xml file in *03_Template\ppt\slides*. Import each slide you want to populate into Alteryx using .csv as data type in the 'File Format' field. 
 
@@ -48,7 +52,9 @@ The template for this project can be found [here](https://github.com/lb930/Alter
 
 1. Instead of creating dummy strings in your template you will need to pre-populate each graph with dummy numeric values which should be unique in the presentation. 
 
-![Graph](https://raw.githubusercontent.com/lb930/Alteryx_projects/main/Populating%20pptx%20files/01%20Screenshots/graphs.PNG)
+<p>
+    <img src="01 Screenshots/graphs.PNG" width="600" height="300" />
+</p>
 
 2. For each graph you need to edit two files: an Excel file and the accompanying chart.xml. Input the Excel file from *\02 Workflows\03_Template\ppt\embeddings*. Input the chart xml file from *\03_Template\ppt\charts* with the following settings:
 
