@@ -53,7 +53,7 @@ The template for this project can be found [here](https://github.com/lb930/Alter
 1. Instead of creating dummy strings in your template you will need to pre-populate each graph with dummy numeric values which should be unique in the presentation. 
 
 <p>
-    <img src="01 Screenshots/graphs.PNG" width="400" height="200" />
+    <img src="01 Screenshots/graphs.PNG" width="200" height="200" />
 </p>
 
 2. For each graph you need to edit two files: an Excel file and the accompanying chart.xml. Input the Excel file from *\02 Workflows\03_Template\ppt\embeddings*. Input the chart xml file from *\03_Template\ppt\charts* with the following settings:
